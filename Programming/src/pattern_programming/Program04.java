@@ -2,7 +2,7 @@ package pattern_programming;
 
 import java.util.Scanner;
 
-public class Program1 {
+public class Program04 {
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -10,15 +10,11 @@ public class Program1 {
 		int row = sc.nextInt();
 		System.out.println("Enter the number of colomn:");
 		int col = sc.nextInt();
-		for (int i = 0; i < row; i++) {
-			for (int j = 0; j < col; j++) {
-				System.out.print("* ");
+		for (int i = 1; i <= row; i++) {
+			for (int j = 1; j <= col; j++) {
+				System.out.print(j+" ");
 			}
 			System.out.println();
 		}
-	}
-	
-	
-	
-
+	}	
 }
