@@ -2,7 +2,7 @@ package array_programming;
 
 public class Program27 {
 	public static void main(String[] args) {
-		int[] a = {12,23,23,12,45,12,76,20,12};
+		int[] a = {12,23,23,12,45,12,76,1001,1001,20,12};
 		int start = 0;
 		int end  = a.length-1;
 		
@@ -24,3 +24,4 @@ public class Program27 {
 		
 	}
 }
+// In this approach the sequence of unique element would be changed.
