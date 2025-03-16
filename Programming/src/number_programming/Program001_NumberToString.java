@@ -23,4 +23,3 @@ public class Program001_NumberToString {
 		return result.toString();
 	}
 }
-70000001
